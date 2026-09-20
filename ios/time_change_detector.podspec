@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'time_change_detector'
-  s.version          = '0.0.1'
+  s.version          = '0.0.5'
   s.summary          = 'A flutter plugin to detect change in device time, date and timezone for Android and IOS.'
   s.description      = <<-DESC
   Time change detector
@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Skandar Munir Ahmed' => 'skandar_munir@yahoo.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'time_change_detector/Sources/time_change_detector/**/*.swift'
+# s.resource_bundles = {'plugin_name_privacy' => ['plugin_name/Sources/plugin_name/PrivacyInfo.xcprivacy']}
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'
 

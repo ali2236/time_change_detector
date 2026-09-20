@@ -1,3 +1,7 @@
+## 0.0.5
+
+Added swift package manager support.
+
 ## 0.0.4
 
 [Android] bug fix [#9](https://github.com/sikandernoori/time_change_detector/issues/9)
